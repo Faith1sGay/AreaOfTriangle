@@ -20,6 +20,7 @@ namespace AreaOfTriangle
             {
                 Triangle tri1 = new Triangle(12, 3);
                 Console.WriteLine($"The area of the triangle is {tri1.height * tri1.width / 2}.");
+                Console.ReadLine();
             }
         }
     }
